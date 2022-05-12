@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>Gulp template</title>
+<body>
+  <div class="navWrapper">
+    <nav>
+      <div class="button" onclick="changeSection('pirmas')">
+        <i class="fa-solid fa-dog"></i>
+        <h2>DogsAwesome</h2>
+      </div>
+      <div><a class="button" onclick="changeSection('antras')">Physical traits and functions</a></div>
+      <div><a class="button" onclick="changeSection('trecias')">Behaviour</a></div>
+      <div><a class="button" onclick="changeSection('ketvirtas')">Dogs as pets</a></div>
+      <div><a class="button" onclick="changeSection('penktas')">The breeds</a></div>
+      <div><a class="button" onclick="changeSection('sestas')">Related canids</a></div>
+      <div><i class="fa-solid fa-volume-off sound" onclick="enableSound()"></i></div>
+    </nav>
+  </div>
+  <div class="tabs">
+    <section class="tab" id="pirmas">
+      <img src="https://images.unsplash.com/photo-1615714927995-e638cc7d9bc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt="">
+      <p>Dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a subspecies of the gray wolf (Canis lupus) and is related to foxes and jackals. The dog is one of the two most ubiquitous and most popular domestic animals in the world (the cat is the other). For more than 12,000 years it has lived with humans as a hunting companion, protector, object of scorn or adoration, and friend.</p>
+      <p>The dog evolved from the gray wolf into more than 400 distinct breeds. Human beings have played a major role in creating dogs that fulfill distinct societal needs. Through the most rudimentary form of genetic engineering, dogs were bred to accentuate instincts that were evident from their earliest encounters with humans. Although details about the evolution of dogs are uncertain, the first dogs were hunters with keen senses of sight and smell. Humans developed these instincts and created new breeds as need or desire arose.</p>
+      <p>Dogs are regarded differently in different parts of the world. Characteristics of loyalty, friendship, protectiveness, and affection have earned dogs an important position in Western society, and in the United States and Europe the care and feeding of dogs has become a multibillion-dollar business. Western civilization has given the relationship between human and dog great importance, but, in some of the developing nations and in many areas of Asia, dogs are not held in the same esteem. In some areas of the world, dogs are used as guards or beasts of burden or even for food, whereas in the United States and Europe dogs are protected and admired. In ancient Egypt during the days of the pharaohs, dogs were considered to be sacred.</p>
+    </section>
+    <section class="tab" id="antras">
+      <h2>Physical traits and functions</h2>
+      <h3>General characteristics</h3>
+      <p>Dogs come in a wide range of shapes and sizes. It is difficult to imagine that a large Great Dane and a tiny poodle are of the same species, but they are genetically identical with the same anatomic features. All dogs have 78 chromosomes, or 39 pairs of chromosomes (humans have 23 pairs), and one member of each pair comes from each parent. The normal temperature (rectal) of an adult dog is 100–102.5 °F.</p>
+      <img src="https://cdn.britannica.com/00/64200-050-029AE274/features-dog-body.jpg" alt="">
+      <h3>Teeth</h3>
+      <p>Dogs have two sets of teeth. Twenty-eight deciduous teeth erupt by six to eight weeks of age, and by the time puppies are six to seven months old these deciduous teeth are all replaced by 42 adult teeth. The permanent teeth include incisors, which are used to nip and bite; canines, which tear and shred flesh; and premolars and molars, which shear and crush. In short, a dog’s teeth serve as weapons and as tools for cutting or tearing food. The canines are the upper and lower fangs for which the dog family was named. As in most carnivores, the teeth are high-crowned and pointed, unlike the broad, grinding teeth of many herbivorous animals.</p>
+      <h3>Digestive system</h3>
+      <p>Dogs rarely chew their food. Once the food is taken into the mouth, it is gulped or swallowed and passed through the esophagus into the stomach, where digestive enzymes begin to break it down. Most of the digestion and absorption of food takes place in the small intestines with the aid of the pancreas and the liver. The pancreas secretes enzymes needed for regulating the digestive process. As in humans, the pancreas produces insulin and glucagon, both of which are necessary for the regulation of glucose. The liver is the largest internal organ in the body. It has six lobes (whereas the human liver has only two). The liver is responsible for many essential life-preserving functions. It helps digestion by producing bile, which aids in the absorption of fat. The liver also metabolizes protein and carbohydrates, and it excretes toxins from the bloodstream. In addition, it manufactures major blood-clotting agents. Because the liver performs all these vital functions, liver disease can be a major problem in dogs.</p>
+      <h3>Skeletal structure</h3>
+      <p>The skeletal frame of the dog consists of 319 bones. If a dog’s tail is docked or absent at birth, there obviously are fewer bones in the skeleton. The muscles and tendons of a dog are similar to those of a human; however, a dog’s upper body muscles bear half the weight of the entire body and are better developed than a human’s. The weight distribution between the front and the rear of the dog are relatively equal.</p>
+      <img src="https://cdn.britannica.com/72/106172-050-12622D01/dog-skeleton.jpg" alt="">
+      <p>Dogs are running animals, with the exception of those bred specifically for different purposes. For instance, the bulldog, with its large head and short, “bowed” legs, cannot be called a creature born to chase game. Most dogs, however, are well equipped to run or lope over long distances, provided that they are physically conditioned for such activities. The construction of the shoulder and pelvic bones and the way they articulate with the leg bones and the spine allow most breeds to trot, run, or gallop with ease. Certain breeds have distinct gaits that have been genetically selected by humans. The German shepherd dog is known for its “flying trot.” The extreme extension of the front and rear legs causes the dog to appear as if it were soaring, although one foot always remains on the ground. Another unique gait is that of the greyhound. This dog was bred for great bursts of speed, and its most comfortable gait is the gallop. The spine is unusually flexible, allowing the dog to contract and extend its four legs in unison, whereby all four feet are off the ground at the same time.</p>
+    </section>
+    <section class="tab" id="trecias">
+      <h2>Behaviour</h2>
+      <p>The dog is a social creature. It prefers the company of people and of other dogs to living alone. It is, therefore, considered by animal behaviourists to be a pack animal. In this respect it is similar to its distant relative the wolf. As a result of millennia of selective breeding, the dog has been adapted to live with people. Seminal studies of dog behaviour conducted in the 1950s and ’60s showed, however, that dogs raised without human contact at an early age retain their inherent instincts and prefer relationships with other dogs over associations with people.</p>
+      <h3>Territory and range</h3>
+      <p>Both dogs and wolves are territorial animals. Wolf packs, because of their need to hunt game, claim large territories as their own, whereas dogs claim their territories based on the limitations of their owners. Male wolves and dogs mark their territorial boundaries by urinating and rubbing their scent on the ground or on trees to warn other animals of their presence. When on neutral ground, that which is not considered by either dogs or wolves to be their home territory, strangers greeting each other will go through formal rituals of sniffing, marking, tail wagging, and posturing. Unless they are claiming the same prey or are engaged in courting the same female, such interactions are usually terminated by each going its own way. Females will attack strangers in neutral territory to protect their young, however.</p>
+      <h3>Barking</h3>
+      <p>Both dogs and wolves have a repertoire of barks, growls, and howls that are identifiable among themselves and to humans who have studied their vocabulary. Dog owners can determine by certain sounds whether their pet is playful, warning of a stranger nearby, fearful, or hurt. One of the earliest signs that puppies are becoming social and independent creatures within the litter are the yips and barks that they make while playing with one another. Dogs, unlike wolves, will growl if cornered or fearful. Certain breeds of dogs, notably hounds, have been bred to enhance the howling instinct when they are on the trail of game. Some of the northern breeds, such as the Siberian husky, howl rather than bark. At the other end of the spectrum, the basenji does not bark but rather emits a yodeling sound when it is happy.</p>
+      </section>
+      <section class="tab" id="ketvirtas">
+        <img src="https://images.unsplash.com/photo-1604942980447-8155eab1b2e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        <h2>Dogs as pets</h2>
+        <p>The companionship between humans and dogs is not a new phenomenon. However, in modern society most dogs are owned as pets, not because of the work they were bred to do. Many breeds, such as the toy dogs, were developed precisely to be pets. All of the diverse breeds and mixed breeds have unique traits and appeal to different kinds of people. Acquiring a dog is a major decision, because the dog becomes totally dependent on its owner for its care and welfare. This responsibility continues throughout the life of the dog. Thus, the initial decision should be based on a serious consideration of whether one’s lifestyle truly lends itself to owning a dog—that is, whether a dog would be an asset rather than a liability.</p>
+      </section>
+      <section class="tab" id="penktas">
+        <h2>The breeds</h2>
+        <p>There are approximately 400 separate breeds of purebred dogs worldwide. A purebred dog is considered to be one whose genealogy is traceable for three generations within the same breed. National registries, such as the American Kennel Club (AKC) in the United States, the Canadian Kennel Club, the Kennel Club of England, and the Australian National Kennel Council, maintain pedigrees and stud books on every dog in every breed registered in their respective countries. The Foxhound Kennel Stud Book, published in England in 1844, was one of the earliest registries. Other countries also have systems for registering purebred dogs. The AKC represents an enrollment of more than 36 million since its inception in 1884, and it registers approximately 1.25 million new dogs each year.</p>
+        <img src="https://images.unsplash.com/photo-1597662942561-776cff97660d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80" alt="">
+      </section>
+      <section class="tab" id="sestas">
+        <h2>Related canids</h2>
+        <p>The evolutionary process that brought about the domestication of the wild canid also created many other types of canids that have remained similar to dogs in genetic structure but with marked differences.</p>
+        <h3>Wolves</h3>
+        <p>The modern dog is descended from the wolf (Canis lupus) and is classified as a wolf subspecies, C. lupus familiaris. C. lupus also includes more than 30 other subspecies found in different parts of the world, some of which are now extinct. The subspecies vary greatly in size and colour, with the largest (averaging 95 to 100 pounds [43 to 45 kilograms]) found in the Arctic regions and the smallest (averaging 30 to 35 pounds) being the Texas red wolf.</p>
+        <img src="https://images.unsplash.com/photo-1604521235800-e06712a0dc8d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        <h3>Coyotes</h3>
+        <p>The coyote (C. latrans), is a wide-ranging animal similar to wolves in some ways but different in others. Coyotes are light-boned, rangier in body with longer, narrower jaws and smaller ears and feet. They are thought to be the most intelligent of the wild canids because they have been able to survive and thrive despite human efforts to exterminate them for hundreds of years. Coyotes can weigh between 25 and 60 pounds and are usually gray to light tan in colour, depending on the region. There are more than a dozen subspecies of coyotes ranging throughout North and Central America. Coyotes tend to live in smaller groups than wolves, sometimes leading solitary lives until they reach sexual maturity at about two years, and they mate for life.</p>
+        <img src="https://images.unsplash.com/photo-1504591277850-78016d3b0e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        <h3>Foxes</h3>
+        <p>Perhaps the most distinctive feature of the fox family, as compared with wolves and coyotes, is the eyes. They are yellow with elliptical pupils. All other canids, including dogs, have round pupils. Foxes are monogamous and do not live in packs. They are among the smaller species of canids, ranging from only 10 to 15 pounds. The more common foxes include the red fox, the gray fox, and the Arctic fox, which is valued for its fur. There are several varieties of large-eared foxes, most of which are native to Africa and all of which are in danger of extinction because they are widely hunted and their habitat is being overbuilt by human settlements.The smallest canid is the fennec. It weighs about three pounds, and its ears are about one-fourth of its body size. This endangered species is native to the desert areas of North Africa and the Arabian and Sinai peninsulas.</p>
+        <img src="https://images.unsplash.com/photo-1644152231863-e3ae720cc399?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt="">
+      </section>
+  </div>
+  <audio id="audio">
+    <source src="audio.mp3" type="audio/mpeg">
+  </audio>
+  <script src="./script.js"></script>
+</body>
+</html>

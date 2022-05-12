@@ -1,0 +1,53 @@
+nav {
+  position: relative;
+  background-color: $clr-nav-main;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+
+  div,
+  i {
+    cursor: pointer;
+  }
+
+  a::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    width: 0%;
+    height: 0.2rem;
+    background-color: red;
+    transition: all 0.5s;
+  }
+
+  a:hover::before {
+    width: 100%;
+  }
+
+  a:hover {
+    font-size: 1.45rem;
+  }
+
+  a {
+    line-height: 60px;
+    font-size: 1.4rem;
+    position: relative;
+    text-decoration: none;
+    overflow-x: hidden;
+    transition: all 0.5s;
+  }
+
+  i {
+    font-size: 3rem;
+    color: white;
+  }
+
+  :nth-of-type(1) {
+    display: flex;
+  }
+}
